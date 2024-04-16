@@ -19,7 +19,7 @@ This tool has a feature that will make this obfuscate difficult to break
   <li>langkah ketiga silakan anda menginstall depencies berikut <code>ossp-uuid, git, curl, lzma, neovim, vim, nodejs</code></li>
   <li>langkah kempat jika sudah menginstall depencies tadi maka anda bisa mengclone repository ini</li>
   <li>langkah kelima jika sudah maka anda bisa menjalankan perintah <code>bash bash.setup build; bash bash.setup run</code></li>
-  <li><code>Token ambil <a href="https://moneyblink.com/PJyV">disini</a></code></li>
+  <li><code>Token ambil <a href="https://moneyblink.com/PJyV">disini</a></code></li><br><br>
   
 > Command install tools
   
