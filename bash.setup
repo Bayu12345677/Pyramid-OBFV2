@@ -1,0 +1,22 @@
+
+ARGS="$@"
+
+function depencies()
+{
+	array=(
+		"ossp-uuid" "neovim" "vim" "coreutils" "lzma" "ncurses-utils" "tree" "cmake" "nodejs" "nodejs-lts"
+		"clang" "make"
+	); apt-get update -y; apt-get upgrade -y
+	
+	for install_depencies in "${array[@]}"; do
+		apt-get install "$install_depencies" -y
+	done
+
+	npm -g i bash-obufscate
+}
+
+case ${ARGS} in
+	build) { eval depencies;: cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_C_COMPILER=gcc;cmake --build .; } ;;
+	run) { bash apps.sh; } ;;
+	*) cat <<< "Opsi: build & run" ;;
+esac
