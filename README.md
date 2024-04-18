@@ -27,8 +27,10 @@ This tool has a feature that will make this obfuscate difficult to break
 apt-get update
 apt-get upgrade
 apt-get install curl jq git ossp-uuid ncurses-utils lzma nodejs
-apt-get install nodejs-lts
+apt-get install nodejs-lts python
 npm -g i bash-obfuscate
+pip install rich
+pip install rich-cli
 git clone https://github.com/Bayu12345677/Pyramid-OBFV2
 cd Pyramid-OBFV2
 bash bash.setup build
