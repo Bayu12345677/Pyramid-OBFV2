@@ -3,7 +3,7 @@
   <img src="https://img.shields.io/static/v1?label=Bash+Obfuscating&color=green&message=+&logo=GNU+Bash&logoColor=white&style=for-the-badge">
   <img src="https://img.shields.io/static/v1?label=Author&color=green&message=Bayu+Rizky+A.M&logo=Acclaim&logoColor=white&style=for-the-badge"><br>
   <img src="https://img.shields.io/github/stars/Bayu12345677/Pyramid-OBFV2?logo=github&style=for-the-badge">
-  <img src="https://img.shields.io/static/v1?label=Version&color=green&message=2.2&logo=Clockify&logoColor=white&style=for-the-badge"><br><br>
+  <img src="https://img.shields.io/static/v1?label=Version&color=green&message=2.3&logo=Clockify&logoColor=white&style=for-the-badge"><br><br>
   <img src="https://img.shields.io/static/v1?label=Termux&color=green&message=+&logo=Iterm2&logoColor=white&style=flat">
   <img src="https://img.shields.io/github/forks/Bayu12345677/Pyramid-OBFV2?logo=github&style=flat">
 </p>
@@ -38,7 +38,7 @@ bash bash.setup run
 ```
 > build = menginstall depencies dan mengcompile main.c<br>
 > run = jalankan setelah perintah build<br>
-> versi 2.2 -> perbaikan bug, mengoptimalkan efisiensi
+> versi 2.3 -> perbaikan bug, mengoptimalkan efisiensi
 
 </details>
 
