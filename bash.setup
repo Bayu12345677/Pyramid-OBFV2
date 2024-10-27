@@ -12,7 +12,7 @@ function depencies()
 		apt-get install "$install_depencies" -y
 	done
 
-	npm -g i bash-obufscate
+	npm i -g bash-obufscate
 }
 
 case ${ARGS} in
