@@ -4,7 +4,7 @@ ARGS="$@"
 function depencies()
 {
 	array=(
-		"ossp-uuid" "neovim" "vim" "coreutils" "lzma" "ncurses-utils" "tree" "cmake" "nodejs" "nodejs-lts"
+		"ossp-uuid" "neovim" "vim" "coreutils" "xz-utils" "ncurses-utils" "tree" "cmake" "nodejs" "nodejs-lts"
 		"clang" "make"
 	); apt-get update -y; apt-get upgrade -y
 	
@@ -12,7 +12,7 @@ function depencies()
 		apt-get install "$install_depencies" -y
 	done
 
-	npm i -g bash-obufscate
+	npm install -g bash-obufscate
 }
 
 case ${ARGS} in
